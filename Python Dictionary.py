@@ -16,8 +16,7 @@ def dict():
     antonym.config(text=dictionary.antonym(word.get()))
 
 
-# Adding frames
-# and labels.
+# Adding frames and labels.
 Label(root, text="Dictionary", font="Helvetica 20 bold", fg="Green").pack(pady=10)
 
 # Frame 2
