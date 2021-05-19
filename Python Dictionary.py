@@ -11,7 +11,7 @@ root.geometry("400x400")
 
 
 def dict():
-    meaning.config(text=dictionary.meaning(word.get())['Noun'][0])
+    meaning.config(text=dictionary.meaning(word.get())['Noun'])
     synonym.config(text=dictionary.synonym(word.get()))
     antonym.config(text=dictionary.antonym(word.get()))
 
