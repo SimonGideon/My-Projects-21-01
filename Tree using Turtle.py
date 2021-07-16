@@ -1,4 +1,4 @@
-import turtle
+from turtle import *
 
 tr = turtle.turtle()
 tr.left(90)
